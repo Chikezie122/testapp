@@ -1,0 +1,198 @@
+body,html
+{
+	margin:0px;
+	padding:0px;
+	height:100%;
+	width:100%;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+}
+#wrapper
+{
+	width:99%;
+	margin:auto;
+}
+
+
+#topbar
+{
+	background-color:rgb(153,0,0);
+	height:40px;
+	box-sizing:border-box;
+}
+
+#searchstrip
+{
+	padding:5px;
+	padding-left:30%;
+
+
+}
+
+#searchstrip input[type="text"]
+{
+	width:300px;
+	margin:auto;
+
+
+}
+#searchstrip input[type="submit"]
+{
+	padding:1px;
+	margin-left:-6px;
+	background-color:rgb(153,0,0);
+
+}
+
+#mainsection
+{
+	background-color: ;
+	height:100%;
+	margin-top:5px;
+}
+
+#leftbar
+{
+	width:200px;
+	background-color:rgb(246,246,246);
+	height:100%;
+	float:left;
+	padding:10px;
+	overflow:auto;
+}
+
+#rightbar
+{
+	width:200px;
+	background-color:rgb(246,246,246);
+	height:100%;
+	float:right;
+	padding:10px;
+}
+
+#maincontent
+{
+	height:100%;
+	margin-left:203px;
+	margin-right:353px;
+	overflow:auto;
+	padding:10px;
+
+}
+#maincontent_wider
+{
+	height:100%;
+	margin-left:203px;
+	overflow:auto;
+	padding:10px;
+}
+
+
+#toplogo
+{
+	float:left;
+	width:25%;
+	height:100%;
+}
+
+
+#topmenu
+{
+
+	height:100%;
+	width: 350px%;
+	float:right;
+	background-color:#300;
+}
+
+#topmenu ul, #topmenu li
+{
+	float:left;
+	padding:0px;
+	margin:0px;
+
+}
+
+#topmenu li a, #topmenu a
+{
+	padding:0px;
+	margin:0px;
+	color:rgb(255,204,0);
+	width:100px;
+}
+
+
+
+
+ul
+{
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+
+}
+
+
+li  a
+{
+	width:200px;
+	text-decoration:none;
+	display:block;
+	margin-bottom:10px;
+	padding:10px 5px;
+	color:rgb(153,0,0);
+	border-bottom: 1px solid #FFF;
+	box-sizing:border-box;
+}
+
+a:hover
+{
+	background-color: rgb(153,0,0);
+	color:#FFF
+}
+
+table
+{
+	width:100%;
+}
+
+td, th {
+	font-size:10px;
+	height:30px;
+	text-align:left;
+	padding:5px;
+	border-bottom:1px solid #FFF;
+}
+
+th{
+	color:#FFF;
+	background-color:rgb(153,0,0);
+	border-bottom:1px solid rgb(204,204,204);
+}
+tr:hover
+{
+
+	background-color:#F1F1F1;
+}
+
+
+
+
+
+
+#q1
+{
+	width:50%;
+	height:100%;
+	float:left;
+
+}
+
+
+
+#q2,#q3
+{
+	width:50%;
+	height:50%;
+	float:left;
+}

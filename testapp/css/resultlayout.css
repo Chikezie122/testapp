@@ -1,0 +1,76 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link href="../css/forminputlayout.css" rel="stylesheet" type="text/css" />
+<link href="../css/genlayout.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Patient Home</title>
+</head>
+
+<body>
+
+<div id="wrapper"> <!--main wrapper-->
+
+  <div id="topbar"> <!--topbar -->
+  <div id="toplogo"><img src="../images/logo.png" /></div>
+  <div id="topmenu">  
+  	<ul>
+        <li><a href="#">Home</a> </li>
+        <li><a href="#">Messages</a> </li>       
+        <li><a href="#">Help</a> </li>
+	</ul> 
+    </div>
+      
+  </div> <!--topbar-->
+  
+  <div id="searchstrip"><input type="text" placeholder="Enter Patient ID/name"/> <input type="submit" value="search" />  
+  </div>
+  
+    
+  <div id="mainsection"> <!--maincontent section-->
+
+    	<div id="leftbar"> <!--leftbar section-->
+      
+        <ul>
+          	<li><a href="#" >Consultation Note</a></li>
+            <li><a href="#" >Progress Note</a></li>
+            <li><a href="#">Send to Lab</a></li>
+            <li><a href="#">Send for Radiology</a></li>
+            <li><a href="#">Medical Services</a></li>
+            <li><a href="#">New Prescriptions</a></li>
+            <li><a href="#">Schedule Follow up</a></li>
+            <li><a href="#">Refer patient</a></li>
+            <li><a href="#">Admit</a></li>
+            <li><a href="#">Discharge</a></li>
+            <h2>View Info</h2>
+            <li><a href="#">View History</a></li>
+            <li><a href="#">Case Reports</a></li>
+            <li><a href="#">Test Results</a></li>
+            <li><a href="#">Progress Notes</a></li>
+            
+		</ul>
+
+ 		</div> <!-- end of leftbar section-->
+    
+        <div id="rightbar"> <!--rightbar section-->
+        
+        <h2>Personal Details </h2>
+        ------------------------
+        <h2>Allergies </h2>
+        ------------------------
+       
+        </div> <!--end rightbar section-->
+         
+        <div id="maincontent"> <!-- maincontent section-->
+        <div id="q1"><h2>latest Progress Note</h2></div>
+        <div id="q2"><h2>Medical Results</h2></div>
+        <div id="q3"><h2>Medical History</h2></div>
+       
+        
+       
+        </div> <!-- end maincontent section-->
+         
+  </div> 
+  <!--maincontent section--></div>
+</body>
+</html>

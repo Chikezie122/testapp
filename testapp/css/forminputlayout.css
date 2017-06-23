@@ -1,0 +1,61 @@
+#header-fixed {
+    position: fixed;
+    top: 0px; display:none;
+    background-color:white;
+}
+
+
+#form{
+
+	padding:10px;
+	border:1px #CCC;
+	border-color:#CCC;
+
+}
+
+.fulllength{
+	width:100%;
+	padding:10px 15px;
+	margin-bottom: 10px;
+	margin-top:10px;
+	box-sizing:border-box;
+	display: inline-block;
+	border-color:rgb(82,1,7);
+	border-radius:5px;
+}
+
+.halflength{
+	width:50%;
+	padding:15px 20px;
+	margin-bottom: 10px;
+	margin-top:10px;
+}
+
+input[type=checkbox]
+{
+	display:inline-block;
+	border-color:1px rgb(204,204,204);
+	padding:10px;
+	margin:10px;
+}
+
+.lightbg
+{
+	background-color:#FFF;
+}
+
+.search{
+	width:70%;
+	height:30px;
+	margin-top:10px;
+	box-sizing:border-box;
+	display: inline-block;
+
+}
+.searchbutton{
+	margin-left:-1px;
+	margin-top:10px;
+	height:30px;
+	box-sizing:border-box;
+
+}
